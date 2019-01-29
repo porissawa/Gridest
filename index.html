@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gridest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>User</h2>
+            <div class="settings">
+                <form>
+                <label for="grid_settings">Grid Size</label>
+                    <select id="grid_size" name="Grid Size">
+                        <option value='' selected="selected">--Choose--</option>
+                        <option value="2">2 x 2</option>
+                        <option value="3">3 x 3</option>
+                        <option value="4">4 x 4</option>
+                        <option value="5">5 x 5</option>
+                        <option value="6">6 x 6</option>
+                        <option value="7">7 x 7</option>
+                    </select>
+                <label for="show_artist">Show Artist Name?</label>
+                    <input type="checkbox" id="artistName" name="Show Artist" />
+                <label for="show_album">Show Album Name?</label>
+                    <input type="checkbox" id="albumName" name="Show Album" />
+                </form>
+            </div>
+        </div>
+        <div class="grid_container">
+            <div class="grid">
+                <!-- <div class="album a1">
+                    <img src={this.props.art}></img>
+                    <span>{this.props.title}</span><br>
+                    <span>{this.props.artist}</span>
+                </div>
+                <div class="album a2">
+                    <img src=''></img>
+                </div>
+                <div class="album a3">
+                    <img src=''></img>
+                </div>
+                <div class="album a4">
+                    <img src=''></img>
+                </div>            -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,56 @@
+:root {
+    --rowNum: 2;
+    --colNum: 2;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: #bebebe;
+    color: #333;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 20vh 80vh 30px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2;
+}
+
+select{
+    text-align: center;
+}
+
+.grid_container {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(var(--colNum), auto);
+    grid-template-rows: repeat(var(--rowNum), auto);
+    height: 800px;
+    width: 800px;
+}
+
+/* .album {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+} */
+
+.album img {
+    width: 100%;
+}
