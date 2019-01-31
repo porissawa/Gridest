@@ -11,8 +11,8 @@ body {
     background-color: #bebebe;
     color: #333;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 20vh 80vh 30px;
+    grid-template-columns: auto 600px auto;
+    grid-template-rows: 20vh 600px 10vh 30px;
 }
 
 .title {
@@ -40,8 +40,8 @@ select{
     display: grid;
     grid-template-columns: repeat(var(--colNum), auto);
     grid-template-rows: repeat(var(--rowNum), auto);
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
 }
 
 /* .album {

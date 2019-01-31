@@ -1,4 +1,3 @@
-let imgGrid = document.getElementsByClassName('grid')
 let gridSize = document.getElementById('grid_size')
 let htmlStyles = window.getComputedStyle(document.querySelector("html"))
 let gridRows = parseInt(htmlStyles.getPropertyValue("--rowNum"))
@@ -11,6 +10,4 @@ function adjustGrid() {
 
     document.documentElement.style.setProperty("--rowNum", gridValue)
     document.documentElement.style.setProperty("--colNum", gridValue)
-
-    // console.log('Cols = ' + gridCols.value + ' Rows = ' + gridRows.value)
 }
